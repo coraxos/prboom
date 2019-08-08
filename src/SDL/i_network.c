@@ -45,10 +45,10 @@
 #include <unistd.h>
 #endif
 #include <stdio.h>
-#include <fcntl.h>
 #include <string.h>
 
 #ifdef HAVE_NET
+#include <fcntl.h>
 
 #include "SDL.h"
 #include "SDL_net.h"
