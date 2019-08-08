@@ -1,0 +1,5 @@
+.vscode/
+autom4te.cache/
+build/
+config.h
+prboom.spec
