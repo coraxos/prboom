@@ -66,7 +66,7 @@
 #undef HAVE_SCHED_SETAFFINITY
 
 /* Define to 1 if you have the `SDL_JoystickGetAxis' function. */
-#undef HAVE_SDL_JOYSTICKGETAXIS
+//#undef HAVE_SDL_JOYSTICKGETAXIS
 
 /* Define to 1 if you have the `snprintf' function. */
 #undef HAVE_SNPRINTF
@@ -143,7 +143,7 @@
 #undef PACKEDATTR
 
 /* Define to enable internal range checking */
-#undef RANGECHECK
+#define RANGECHECK
 
 /* Define if you have an old SDL_net, such that the UDPpacket structure has a
    src member instead of an address member */
@@ -151,7 +151,7 @@
 
 /* When defined this causes quick checks which only impose significant
    overhead if a posible error is detected. */
-#undef SIMPLECHECKS
+#define SIMPLECHECKS
 
 /* Define to 1 if you have the ANSI C header files. */
 #undef STDC_HEADERS
@@ -181,13 +181,13 @@
 
 /* Define this to perform id checks on zone blocks, to detect corrupted and
    illegally freed blocks */
-#undef ZONEIDCHECK
+#define ZONEIDCHECK
 
 /* Define to empty if `const' does not conform to ANSI C. */
 #undef const
 
 /* Define to `int' if <sys/types.h> doesn't define. */
-#undef gid_t
+//#undef gid_t
 
 /* Define to `__inline__' or `__inline' if that's what the C compiler
    calls it, or to nothing if 'inline' is not supported under any name.  */
@@ -205,4 +205,9 @@
 #undef strnicmp
 
 /* Define to `int' if <sys/types.h> doesn't define. */
-#undef uid_t
+//#undef uid_t
+
+#define HAVE_CORAXLIB_H 1
+
+#undef __USE_EXTERN_INLINES
+#undef __OPTIMIZE__
