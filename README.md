@@ -1,3 +1,16 @@
+# PrBoom
+
+PrBoom game engine ported to coraxOS (https://github.com/coraxos).
+
+## Building
+
+1. Build the sdl library first (https://github.com/coraxos/SDL) and the coraxOS libc (https://github.com/coraxos/coraxOS)
+2. Export the SDL_BUILD_LOCATION and LIBC_LOC (see run-configure.sh for more details)
+3. Run run-configure.sh
+The prboom binary will be created in "build/games/prboom" and the prboom.wad file will be created in "build/share/games/doom/prboom.wad". They are both needed to run a doom game.
+
+# Original PrBoom README below
+
 PrBoom 2.5.0
 ============
 
