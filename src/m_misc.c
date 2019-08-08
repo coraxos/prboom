@@ -310,7 +310,7 @@ default_t defaults[] =
     {"videomode",{NULL, &default_videomode},{0,"8"},UL,UL,def_str,ss_none},
   #endif
 #else
-  {"videomode",{NULL, &default_videomode},{0,"8"},UL,UL,def_str,ss_none},
+  {"videomode",{NULL, &default_videomode},{0,"32"},UL,UL,def_str,ss_none},
 #endif
   /* 640x480 default resolution */
   {"screen_width",{&desired_screenwidth},{640}, 320, MAX_SCREENWIDTH,
